@@ -13,4 +13,5 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   root "pages#home"# scrie de la sine _controller
+  get "about", to: "pages#about"# pune de la sine .erb sau ce trebuie sa puna
 end
